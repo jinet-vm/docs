@@ -1,3 +1,3 @@
-# Readme
+# Paper & stuff
 
-Презентация, concept vision, дипломная записка.
+All needed documentation. Mostly in Russian.
