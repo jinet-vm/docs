@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="14cm" viewBox="338 308 345 273" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #60637e" x="340" y="520" width="340" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="520" width="340" height="60"/>
+    <text font-size="16.9333" style="fill: #e1e1e1;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510" y="557.517">
+      <tspan x="510" y="557.517">VMX &amp; devices</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="340" y="470" width="340" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="470" width="340" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510" y="495.7">
+      <tspan x="510" y="495.7">гипервизор</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #e8b4b4" x="340" y="420" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="420" width="100" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="445.7">
+      <tspan x="390" y="445.7">Guest OS #0</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #a2dda1" x="460" y="420" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="420" width="100" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510" y="445.7">
+      <tspan x="510" y="445.7">Guest OS #1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #a1a4dd" x="580" y="420" width="100" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580" y="420" width="100" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="630" y="445.7">
+      <tspan x="630" y="445.7">Guest OS #2</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffcace" x="339.276" y="310" width="101.45" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="339.276" y="310" width="101.45" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390.001" y="357.7">
+      <tspan x="390.001" y="357.7">user mode</tspan>
+      <tspan x="390.001" y="373.7">apps</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #b8ffb6" x="460" y="310" width="101.45" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="310" width="101.45" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510.725" y="357.7">
+      <tspan x="510.725" y="357.7">user mode</tspan>
+      <tspan x="510.725" y="373.7">apps</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ada9ff" x="580" y="310" width="101.45" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580" y="310" width="101.45" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="630.725" y="357.7">
+      <tspan x="630.725" y="357.7">user mode</tspan>
+      <tspan x="630.725" y="373.7">apps</tspan>
+    </text>
+  </g>
+</svg>

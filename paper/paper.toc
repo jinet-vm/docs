@@ -1,5 +1,29 @@
 \select@language {russian}
-\contentsline {section}{\numberline {1}Постановка задачи}{2}
-\contentsline {section}{\numberline {2}Анализ предметной области}{2}
-\contentsline {subsection}{\numberline {2.1}Формальный критерий виртуализуемости}{3}
-\contentsline {section}{\numberline {3}Ход}{3}
+\contentsline {section}{\numberline {1}Введение}{3}{section.1}
+\contentsline {section}{\numberline {2}Актуальность}{4}{section.2}
+\contentsline {section}{\numberline {3}Постановка задачи}{5}{section.3}
+\contentsline {section}{\numberline {4}Анализ предметной области}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Виртуализация}{6}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Классический критерий виртуализуемости}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Типы гипервизоров}{7}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Архитектура процессоров Intel x86}{8}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Загрузка из бутсектора (bootsector) и работа в Real Mode}{8}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Настройка видеоадаптера}{8}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Настройка 32-битной GDT и переход в Protected Mode}{9}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Настройка 64-битных таблиц страничной трансляции и переход в Long Mode}{9}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Настройка обработка исключений и прерываний}{10}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Настройка аппаратной виртуализации}{10}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Обработка вызовов из виртуальной машины}{11}{subsubsection.4.2.7}
+\contentsline {section}{\numberline {5}Обзор аналогов}{12}{section.5}
+\contentsline {section}{\numberline {6}Ход работы}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Изучение Real Mode ассемблера (16bit)}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Изучение Protected Mode (32bit)}{13}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Изучение топологии ядер и процессоров (ACPI: SRAT, SLIT)}{14}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Изучение Long Mode (64 bit, x86-64)}{14}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Изучение аппартных механизмов виртуализации VMX (VT-i, VT-d)}{14}{subsection.6.5}
+\contentsline {section}{\numberline {7}Программная реализация}{15}{section.7}
+\contentsline {section}{\numberline {8}Пример использования}{16}{section.8}
+\contentsline {section}{\numberline {9}Результат}{16}{section.9}
+\contentsline {section}{\numberline {10}Выводы}{17}{section.10}
+\contentsline {section}{\numberline {11}Благодарности}{18}{section.11}
+\contentsline {section}{\numberline {12}Список литературы}{18}{section.12}
