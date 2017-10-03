@@ -1,0 +1,157 @@
+\documentclass[final]{beamer}
+\mode<presentation>
+{
+	\usetheme{Berlin} % тема
+}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[orientation=portrait,size=a0,scale=1.1]{beamerposter}
+% ориентация может быть landscape.
+% размер - другой, какой захотите, например, a1,
+% или какой-нибудь свой, size=custom,width=200,height=120
+% scale - множитель на размер шрифта.  Очень удобно для подгонки
+% содержимого постера для идеального заполнения пространства!
+\usepackage{multicol}  % в несколько колонок
+
+% нумерация рисунков в презентации
+\setbeamertemplate{caption}[numbered]
+
+\newcommand{\celcius}{\,^{\circ}\mathrm{C}}
+\graphicspath{{pics/}}
+\listfiles
+
+% Display a grid to help align images
+%\beamertemplategridbackground[1cm]
+
+\title{\Huge Phase splitting with temperature in perovskite-type
+	strontium cobaltite \\doped with Fe and Nb}
+
+\author{Maxim G. Ivanov\inst{1}, Alexander N. Shmakov\inst{1,2},
+	Sergey V. Tsybulya\inst{1,2}, Olga Yu. Podyacheva\inst{1}}
+\institute[] % (optional, but mostly needed)
+{
+	\inst{1}%
+	Boreskov Institute of Catalysis SB RAS, Russia
+	\\
+	\inst{2}%
+	Novosibirsk State University, Russia
+}
+
+\date[May. 27-30th, 2009]{May. 27-30th, 2009}
+
+\begin{document}
+	\begin{frame}{}
+	\vspace{-1cm}
+	\begin{columns}[t]  %выравнивание колонок постера по верху
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\begin{column}{.39\linewidth}  % задаём ширину первой колонки
+			
+			\begin{block}{Introduction}
+				Here is your introduction. Привет!
+			\end{block}
+			
+			\vspace{2.5cm}  %Небольшой зазор (потом с ним поиграем на конечном этапе)
+			
+			\begin{block}{Experimental}
+				\begin{exampleblock}{Samples preparation}
+					The samples were prepared by\ldots
+				\end{exampleblock}
+				
+				\begin{exampleblock}{The structural analysis}
+					X-ray powder diffraction (XRPD) was performed at the\ldots
+				\end{exampleblock}
+				
+				\begin{exampleblock}{Oxygen conductivity performance}
+					The oxygen conductivity experiments were carried out by\ldots
+				\end{exampleblock}
+				
+				\begin{columns}
+					% разобьём данную колонку на два столбца для рисунков
+					\column{0.35\textwidth}
+					\begin{figure}[h]
+						\centering
+						%\includegraphics[width=\columnwidth]{membrane-reactor-en}
+						\caption{Scheme of the membrane reactor}
+						\label{fig:membrane}
+					\end{figure}
+					
+					\column{0.65\textwidth}
+					\begin{figure}[h]
+						\centering
+						%\includegraphics[width=\columnwidth]{all_plot_in_one_1_2_3}
+						\caption{Characteristic data obtained
+							at the set up}
+						\label{fig:oxygen-conductivity}
+					\end{figure}
+				\end{columns}
+				
+			\end{block}  %конец Experimental
+			
+			\begin{exampleblock}{Acknowledgments}
+				Many thanks to\ldots
+			\end{exampleblock}
+		\end{column}  %конец первой колонки
+		
+		\begin{column}{.59\linewidth}
+			\begin{block}{Results and Discussion}
+				Although the samples involved were considered to have\ldots
+				
+				\begin{figure}[h]
+					% вставим два рисунка рядом другим образом
+					\centering
+					%\includegraphics[width=0.49\textwidth]{diffraction_profile}\hfill
+					%\includegraphics[width=0.49\textwidth]{lattice-nb02-mm4}\\
+					\parbox{0.49\textwidth}{\caption{Diffraction profile of 110 peak}
+						\label{fig:diff-profile}}
+					\parbox{0.49\textwidth}{\caption{Lattice parameters of the two
+							phases}
+						\label{fig:lattice-parameters-2phases}}
+				\end{figure}
+				Fig.~\ref{fig:lattice-parameters-2phases} shows\ldots
+				
+				\begin{columns}[t]  % разобьём на два столбца.
+					% выравнивание столбцов по верхней точке,
+					% чтобы не был один выше другого.
+					\column{0.48\textwidth}
+					\begin{exampleblock}{Phases proportion}
+						If one considers the process of structural transformation
+						to have\ldots
+					\end{exampleblock}
+					
+					\column{0.48\textwidth}
+					\begin{exampleblock}{Oxygen conductivity}
+						The thermal dependence of oxygen conductivity through the
+						membrane could be written as follows:\ldots
+					\end{exampleblock}
+				\end{columns}  %конец локального разбиениия
+				
+				\begin{exampleblock}{The similarity in activation energy values
+						and the connection between oxygen conductivity and the
+						second phase}
+					The $E_{activation}$ values determined from these two methods
+					turned out to be rather similar.
+				\end{exampleblock}
+			\end{block} % конец блока "Results and Discussion"
+			
+			\begin{block}{Conclusion}
+				\begin{itemize}
+					\item The first conclusion.
+					\item The second conclusion.
+					\item The third conclusion.
+				\end{itemize}
+			\end{block}  %конец "Conclusion"
+			
+		\end{column}  % конец второй большой колонки постера
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{columns}  % конец разбиения на колонки
+	
+	\vfill
+	
+\end{frame}
+
+\end{document}

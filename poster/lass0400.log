@@ -1,0 +1,215 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2017/Arch Linux) (preloaded base=mf 2017.8.14)  2 OCT 2017 23:59
+**\mode:=ljfour; mag:=1; nonstopmode; input lass0400
+(/home/ilya101010/.texlive/texmf-var/fonts/source/lh/lh-t2a/lass0400.mf
+(/usr/share/texmf-dist/fonts/source/lh/base/fikparm.mf
+(/usr/share/texmf-dist/fonts/source/public/cm/cmbase.mf)
+(/usr/share/texmf-dist/fonts/source/lh/base/lcyrbeg.mf)
+(/usr/share/texmf-dist/fonts/source/lh/base/lkligtbl.mf)
+>> 4
+>> "input ecss" (/usr/share/texmf-dist/fonts/source/jknappen/ec/ecss.mf)
+(/usr/share/texmf-dist/fonts/source/lh/lh-t2a/lacodes.mf)
+(/usr/share/texmf-dist/fonts/source/lh/base/lcyrdefs.mf)
+(/usr/share/texmf-dist/fonts/source/lh/base/leroman.mf
+(/usr/share/texmf-dist/fonts/source/lh/base/lxpseudo.mf)
+(/usr/share/texmf-dist/fonts/source/jknappen/ec/exrulett.mf [65] [66] [67]
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[83] [84] [85] [86] [87] [88] [89] [90])
+(/usr/share/texmf-dist/fonts/source/jknappen/ec/exrllett.mf [97]
+> 0 WSW 1 (WNW) NNW WNW WSW SSW SSE ESE 2 3 SSE 4 SSW 5 WSW 6 WNW NNW 7 (NNE) E
+NE 8 (ESE) SSE ESE 9 ENE 10 NNE 11 NNW WNW 12 13 WSW SSW 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.83 ...ed_arc.e(4,5)&pulled_arc.e(5,6)...{up}z7e;
+                                                   % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[98] [99]
+> 0 ENE 1 NNE ENE ESE SSE SSW WSW 2 3 SSW 4 SSE 5 ESE 6 ENE NNE 7 (NNW WNW) WSW
+ 8 SSW WSW 9 WNW 10 NNW 11 NNE ENE 12 13 ESE SSE 0 (ESE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.140  & pulled_arc.e(5,6)...{up}z7e;
+                                      % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+> 0 WSW 1 (WNW) NNW WNW WSW SSW SSE ESE 2 3 SSE 4 SSW 5 WSW 6 WNW NNW 7 (NNE) E
+NE 8 (ESE) SSE ESE 9 ENE 10 NNE 11 NNW WNW 12 13 WSW SSW 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.476  &super_arc.e(5,6)&z6e{left}...{up}z7e;
+                                               % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[112] [113] [114] [115] [116] [117] [118] [119] [120]
+> 0 NNE 1 NNW WNW 2 (WSW) SSW 3 (SSE ESE) ENE NNE ENE ESE SSE SSW 4 5 WSW 0 (WN
+W NNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.799  fill stroke z3e---z5e...{left}z6e;
+                                           % arc
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[121]
+! Square root of -1.09401 has been replaced by 0.
+diag_ratio->...2)-bb_*bb_;((EXPR2)*(cc_++sqrt.aa_)
+                                                  -bb_*cc_)/aa_.endgroup
+l.817 ...,z_stem-tiny,y2-y3,x2r-x3l-slant*(y2-y3))
+                                                  ;
+Since I don't take square roots of negative numbers,
+I'm zeroing this one. Proceed, with fingers crossed.
+
+[122]) (/usr/share/texmf-dist/fonts/source/lh/base/lgcyru.mf
+(/usr/share/texmf-dist/fonts/source/lh/base/lgrusu.mf [192] [193] [194]
+[195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205] [206]
+[207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217] [218]
+[219] [220] [221] [222] [223] [156])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgt2comu.mf [131] [130] [136]
+[135] [155] [143] [150] [128] [142] [144] [146] [153])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgt2upu.mf [129] [132] [133]
+[134] [137] [138] [141] [145] [147] [148] [149] [152] [154])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgt2lou.mf [140] [139] [151]))
+(/usr/share/texmf-dist/fonts/source/lh/base/lgcyrl.mf
+(/usr/share/texmf-dist/fonts/source/lh/base/lgrusl.mf [224] [225] [226]
+[227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239]
+> 0 WSW 1 (WNW) NNW WNW WSW SSW SSE ESE 2 3 SSE 4 SSW 5 WSW 6 WNW NNW 7 (NNE) E
+NE 8 (ESE) SSE ESE 9 ENE 10 NNE 11 NNW WNW 12 13 WSW SSW 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.769  &super_arc.e(5,6)&z6e{left}...{up}z7e;
+                                               % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[240] [241] [242]
+> 0 NNE 1 NNW WNW 2 (WSW) SSW 3 (SSE ESE) ENE NNE ENE ESE SSE SSW 4 5 WSW 0 (WN
+W NNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.881  fill stroke z3e---z5e...{left}z6e;
+                                           % arc
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[243]
+> 0 WSW 1 (WNW) NNW WNW WSW SSW SSE ESE 2 3 SSE 4 SSW 5 WSW 6 WNW NNW 7 (NNE) E
+NE 8 (ESE) SSE ESE 9 ENE 10 NNE 11 NNW WNW 12 13 WSW SSW 0
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.914   & super_arc.e(5,6) & z6e{left}...{up}z7e;
+                                                   % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+> 0 ENE 1 NNE ENE ESE SSE SSW WSW 2 3 SSW 4 SSE 5 ESE 6 ENE NNE 7 (NNW WNW) WSW
+ 8 SSW WSW 9 WNW 10 NNW 11 NNE ENE 12 13 ESE SSE 0 (ESE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.919 ...rc.e(.m5,.m6) & z.m6e{right}...{up}z.m7e;
+                                                    % bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[244] [245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255]
+[188]) (/usr/share/texmf-dist/fonts/source/lh/base/lgt2coml.mf [163] [162]
+[167] [187] [175] [182] [160] [168] [174] [176]
+> 0 NNE 1 NNW WNW 2 (WSW) SSW 3 (SSE ESE) ENE NNE ENE ESE SSE SSW 4 5 WSW 0 (WN
+W NNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.738  fill stroke z3e---z5e...{left}z6e;
+                                           % arc
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[178] [185]) (/usr/share/texmf-dist/fonts/source/lh/base/lgt2upl.mf [161]
+[164] [165] [166] [169] [170] [173] [177] [179] [180] [181] [184] [186])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgt2lol.mf [172] [171] [183]))
+(/usr/share/texmf-dist/fonts/source/lh/base/lgcyrsym.mf [13] [14] [15] [22]
+> 0 NNE 1 (NNW WNW) WSW 2 SSW 3 SSE ESE 4 5 (ENE) NNE 6 (ENE) ESE SSE 7 8 SSW 9
+ WSW 0 (WNW NNW)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.192  & pulled_super_arc.e(2,3)(superpull);
+                                              % left half of lower bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+> 0 SSW 1 (SSE ESE) ENE 2 NNE 3 NNW WNW 4 5 (WSW) SSW 6 (WSW) WNW NNW 7 8 NNE 9
+ ENE 0 (ESE SSE)
+! Strange path (turning number is zero).
+<to be read again> 
+                   ;
+l.193 ...roke super_arc.e(3,4) & super_arc.e(4,1);
+                                                   % right half of lower bowl
+The path doesn't have a counterclockwise orientation,
+so I'll probably have trouble drawing it.
+(See Chapter 27 of The METAFONTbook for more help.)
+
+[24] [23] [34] [157] [158] [159] [189] [190] [191])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgengsym.mf [16] [17] [21] [32]
+[33] [35] [36] [37] [39] [40] [41] [42] [43] [44] [45] [46] [47] [58] [59]
+[60] [62] [61] [64] [91] [92] [93] [94] [95] [96] [123] [124] [125] [126]
+[127]) (/usr/share/texmf-dist/fonts/source/lh/base/lgromp.mf [38] [63])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgrdigit.mf [48] [49] [50] [51]
+[52] [53] [54] [55] [56] [57])
+(/usr/share/texmf-dist/fonts/source/lh/base/lgrlig.mf [25] [26] [28] [27]
+[29] [30] [31]) (/usr/share/texmf-dist/fonts/source/lh/base/lgcyracc.mf
+[0] [1] [2] [3] [4] [5] [6]
+>> x50
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+--->{
+     curl1}..{curl1}
+lc_hachek_accent->...ldraw.z54l--z51l--z51r--z50--
+                                                  z53l--z53r--z54r--cycle;fi...
+l.114 lc_hachek_accent(.5w)
+                           ;
+I need a `known' x value for this part of the path.
+The value I found (see above) was no good;
+so I'll try to keep going by using zero instead.
+(Chapter 27 of The METAFONTbook explains that
+you might want to type `I ???' now.)
+
+[7] [8] [9] [10] [11] [12] [19] [20] [18])
+(/usr/share/texmf-dist/fonts/source/lh/base/llvligtb.mf)
+(/usr/share/texmf-dist/fonts/source/lh/base/llrligtb.mf)
+(/usr/share/texmf-dist/fonts/source/lh/lh-t2a/laliker.mf) ) ) ) 
+Here is how much of METAFONT's memory you used:
+ 1120 strings out of 5274
+ 11351 string characters out of 70023
+ 46114 words of memory out of 5000000
+ 1873 symbolic tokens out of 9500
+ 16i,80n,8r,28p,335b stack positions out of 300i,300n,1000r,150p,200000b
+ 
+(You used 96w,16h,13d,12i,401l,9k,0e,16p metric file positions
+  out of 256w,16h,16d,64i,15000l,2500k,256e,60p)
+
+Font metrics written on lass0400.tfm.
+Output written on lass0400.600gf (256 characters, 19776 bytes).
