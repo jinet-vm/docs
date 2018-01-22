@@ -1,0 +1,78 @@
+%!TEX TS-program = xelatex
+% see https://www.writelatex.com/coursera/latex/5.2.2
+
+\documentclass[a4paper,12pt]{extarticle}
+
+% Russian fonts
+\usepackage[english,russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+\setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+\setmonofont{Courier New}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage[bottom]{footmisc}
+\linespread{1.5}
+\hypersetup{final=true}
+\addto\captionsngerman{
+	% Second argument is singular, third is plural
+	\crefname{figure}{abb.}{abb.}
+	\Crefname{figure}{Abb.}{Abb.}
+}
+\crefname{figure}{рис.}{рис.}
+\frenchspacing
+
+% Margins
+% \usepackage[top=20mm, bottom=20mm, left=25mm, right=10mm]{geometry} % GOST
+\usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
+
+% Paragraph spacing
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1.5em}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{tabulary}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document} % конец преамбулы, начало документа
+	Секция: Программирование\\
+	Школа №1533 "ЛИТ"\\
+	119296 г.Москва, Ломоносовский проспект, дом 16\\
+	тел. (499) 133-24-35, e-mail: info@lit.msu.ru\par
+	{\Large \textbf{Разработка гипервизора Jinet}}\par
+	Захаров Илья\\
+	класс: 11\\
+	123060 г.Москва. ул.Маршала Бирюзова, д.20к2, кв.54\\
+	тел.: 8 (916) 620-86-51, e-mail: ilya101010@gmail.com\par
+	Научный руководитель: Байков Борис Камалевич,\\ ведущий программист, руководитель группы, <<Т-Платформы>>
+	\\\par
+	
+	\setlength{\parskip}{0.5em}
+	\textbf{Цель работы} -- это создание минимального монитора виртуальных машин (гипервизора) с использованием механизмов аппаратной виртуализации архитектуры x86-64 (AMD64). \\\par
+	С каждым годом технологии виртуализации всё глубже и глубже входят в мир информационных технологий, находя применения в самых разных областях IT:
+	\begin{enumerate}
+		\item изоляция серверных систем для обеспечения их безопасности
+		\item эффективное сегментирование ресурсов компьютера
+		\item одновременное использование разных ОС на настольном компьютере
+		\item отладка гостевых систем 
+	\end{enumerate}
+	\par Большиство из ныне существующих гипервизоров массивны и поддерживают множество функций. Реализованный в рамках этой работы гипервизор может послужить базой для гипервизоров, заточенных под конкретные задачи. Мотивацией для работы стали интерес и актуальность технологий виртуализации и прямого программирования оборудования. Исследованы механизмы виртуализации, получен опыт разработки кода управления ими. \par
+	В ходе работы над проектом было изучено большое количество документации по процессорам Intel (\cite{intel}) и AMD (\cite{amd}), документация \texttt{gnu make} (\cite{make}), \texttt{gnu ld} (\cite{ld}), \texttt{gcc} (\cite{gcc}), \texttt{fasm} (\cite{fasm}), формата ELF (\cite{elf}), таблиц ACPI (\cite{acpi}).\par
+	Гипервизор Jinet был написан на языках программирования ассемблер (диалекты \texttt{fasm} и \texttt{as}) и C (компилятор \texttt{gcc}). Сборка проекта осуществляется с помощью сборщика \texttt{gnu ld} и утилиты \texttt{gnu make}. В качестве системы контроля версий используется \texttt{git} и хостинг GitHub. Гипервизор позволяет запускать код в изолируемом окружении виртуальной машины. Код, инициализирующий подсистемы компьютера и режим VMX, можно использовать для демонстрации возможностей виртуализации, а также в учебных целях.\par
+	Исходный код проекта находится под лицензией MIT.
+	\section{Литература}
+	\nocite{*}
+	\renewcommand{\section}[2]{}%
+	\bibliographystyle{../utf8gost705u}
+	\bibliography{../biblio}
+\end{document} % конец документа
+

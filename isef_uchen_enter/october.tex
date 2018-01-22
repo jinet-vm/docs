@@ -1,0 +1,113 @@
+%!TEX TS-program = xelatex
+% see https://www.writelatex.com/coursera/latex/5.2.2
+
+\documentclass[a4paper,11pt]{extarticle}
+
+% Russian fonts
+\usepackage[english,russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+\setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+\setmonofont{Courier New}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage[bottom]{footmisc}
+\linespread{1}
+\hypersetup{final=true}
+\addto\captionsngerman{
+	% Second argument is singular, third is plural
+	\crefname{figure}{abb.}{abb.}
+	\Crefname{figure}{Abb.}{Abb.}
+}
+\crefname{figure}{рис.}{рис.}
+\frenchspacing
+
+% Margins
+% \usepackage[top=20mm, bottom=20mm, left=25mm, right=10mm]{geometry} % GOST
+\usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
+
+% Paragraph spacing
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{tabulary}
+
+\setcounter{secnumdepth}{1}
+\title{\vspace{-2.5cm}Анкета Захарова Ильи, школа №1533 ЛИТ\vspace{-1cm}}
+\date{}
+\begin{document} % конец преамбулы, начало документа
+\maketitle
+\section{Результаты в октябре}
+
+	\subsection{Изучение Real Mode ассемблера (16bit)}
+\begin{itemize}
+	\item Загрузочный сектор: написание своего загрузочного кода
+	\item Написание клеточного автомата в загрузочном секторе
+	\item BIOS - прерывания: int 13h, int 15h
+	\item Работа с VideoBIOS: работа с int 10h
+	\item Начало работы с эмуляторами Bochs, QEMU
+\end{itemize}
+\subsection{Изучение Protected Mode (32bit)}
+\begin{itemize}
+	\item Управление памятью: глобальная таблица дескрипторов (GDT)
+	\item Изучение Big Real Mode
+	\item Изучение структуры исполняемого файла ELF
+	\item Изучение компоновки кода на Assembler и кода на языке C
+	\item Начало разработки в Protected Mode на языке C
+	\item Чтение карты доступной физической памяти
+	\item Виртуальная память: настройка страничного отображения (Paging)
+	\item Обработка прерываний: таблица прерываний в защ. режиме (IDT)
+	\item Перенос кода ядра и таблиц выше 1 МБ
+	\item Изучение механизмов аппаратной многозадачности. Структура TSS
+\end{itemize}
+\subsection{Изучение топологии ядер и процессоров (ACPI: SRAT, SLIT)}
+\begin{itemize}
+	\item Изучение APIC, XAPIC (LAPIC, IOAPIC, ACPI: MADT)
+\end{itemize}
+\subsection{Изучение Long Mode (64 bit, x86-64)}
+\begin{itemize}
+	\item Изучение особенностей TSS и IDT в 64-битном режиме
+	\item Изучение особенностей страничной адресации памяти (PAE)
+\end{itemize}
+\subsection{Изучение аппартных механизмов виртуализации VMX (VT-i, VT-d)}
+\begin{itemize}
+	\item Подготовка и включение VMX-режима
+	\item Подготовка управляющих структур для виртуальной машины
+	\item Создание обработчика VMCall
+	\item Создание обработчиков событий
+\end{itemize}
+\subsection{Другое}
+\begin{itemize}
+	\item Сборка проекта с помощью утилиты \texttt{make}
+	\item Портирование проекта с собственного загрузчика на GRUB
+	\item Настройка VGA, VBE как выводов терминала системы
+\end{itemize}
+\section{После октября}
+	Минус означает ещё не решённую задачу.
+\begin{itemize}
+	\item Управление памятью
+	\renewcommand{\labelitemii}{$\circ$}
+	\begin{itemize}
+		\item Высокоуровневый доступ к структурам paging-а
+		\item Выделение физической памяти (binary buddy allocator)
+		\item Куча (heap)
+	\end{itemize}
+	\item Доступ к отладочной консоли через Intel LPSS UART\footnote{определяется в DBGP, PCI номер устройства: вендор 8086h, id устройства A166h}
+	\item Обработка ACPI таблиц: MADT, DBGP
+	\item Инициализация многоядерности: отправление SIPI, init-IPI
+	\item Разработка планировщика для задач на BSP (round-robin)
+	\item Написание документации проекта на Doxygen [in process]
+	\item[$-$] Создание расширенных таблиц страничной трансляции (EPT)
+	\item[$-$] Создание BIOS для виртуальных машин
+\end{itemize}\par
+	\textbf{Все практические задачи были решены собственными силами автора. Коррективы в исходный код вносили научный руководитель и консультанты.}
+\end{document} % конец документа

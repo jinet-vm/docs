@@ -1,11 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: paper.aux
+The top-level auxiliary file: thesis.aux
 The style file: ../utf8gost705u.bst
 Database file #1: ../biblio.bib
 You've used 13 entries,
             2958 wiz_defined-function locations,
-            712 strings with 6450 characters,
+            712 strings with 6452 characters,
 and the built_in function-call counts, 1832 in all, are:
 = -- 199
 > -- 39

@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.12.19)  3 JAN 2018 17:10
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.9.13)  15 DEC 2017 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
@@ -33,19 +33,19 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \bibindent=\dimen103
 )
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/11/03 3.15 The Babel package
+Package: babel 2017/06/29 3.12 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/11/03 3.15 Babel common definitions
+File: babel.def 2017/06/29 3.12 Babel common definitions
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
 \babel@savecnt=\count87
 \U@D=\dimen104
@@ -58,9 +58,18 @@ File: switch.def 2017/11/03 3.15 Babel switching mechanism
 \l@newzealand = a dialect from \language\l@british 
 )
 (/usr/share/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
-Package babel Info: Making " an active character on input line 120.
-Package babel Info: Default for \cyrdash is provided on input line 157.
+Language: russianb 2017/01/12 1.3i Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `EU1' encoding will be loaded  on input line 69.
+
+
+(/usr/share/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+Package babel Info: Making " an active character on input line 111.
 ))
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -71,12 +80,11 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/11/14 L3 programming layer (loader) 
+Package: expl3 2017/07/19 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/11/14 L3 programming layer (code)
+Package: expl3 2017/07/19 L3 programming layer (code)
 \c_max_int=\count89
 \l_tmpa_int=\count90
 \l_tmpb_int=\count91
@@ -219,17 +227,18 @@ File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count167
 \l__driver_tmp_box=\box41
 ))
-Package: xparse 2017/11/14 L3 Experimental document command parser
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/07/19 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count168
 \g__xparse_grabber_int=\count169
 \l__xparse_m_args_int=\count170
 \l__xparse_mandatory_args_int=\count171
 \l__xparse_v_nesting_int=\count172
 )
-Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2017/07/23 v2.6c Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2017/07/23 v2.6c Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count173
 \l__fontspec_language_int=\count174
@@ -254,191 +263,176 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 474.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 485.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 505.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 525.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 545.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 549.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 557.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 565.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 588.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 605.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 616.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 590.
+. Defining command \addfontfeatures with sig. 'm' on line 647.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeature with sig. 'm' on line 594.
+. Defining command \newfontfeature with sig. 'mm' on line 674.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 598.
+. Defining command \newAATfeature with sig. 'mmmm' on line 688.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+. Defining command \newopentypefeature with sig. 'mmm' on line 702.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+. Defining command \newICUfeature with sig. 'mmm' on line 722.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newICUfeature with sig. 'mmm' on line 610.
+. Defining command \aliasfontfeature with sig. 'mm' on line 726.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 747.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+. Defining command \newfontscript with sig. 'mm' on line 780.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 622.
+. Defining command \newfontlanguage with sig. 'mm' on line 784.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 626.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 788.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 799.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3462.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+. Defining command \EncodingAccent with sig. 'mm' on line 3468.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3474.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3480.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3486.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3511.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3517.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \UndeclareAccent with sig. 'm' on line 3693.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \UndeclareCommand with sig. 'm' on line 3699.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+. Defining command \UndeclareComposite with sig. 'mm' on line 3525.
 .................................................
 
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 3891.
-LaTeX Info: Redefining \slshape on input line 3896.
-LaTeX Info: Redefining \scshape on input line 3901.
-LaTeX Info: Redefining \upshape on input line 3906.
-LaTeX Info: Redefining \em on input line 3936.
-LaTeX Info: Redefining \emph on input line 3961.
-LaTeX Info: Redefining \- on input line 4015.
+LaTeX Info: Redefining \itshape on input line 3710.
+LaTeX Info: Redefining \slshape on input line 3715.
+LaTeX Info: Redefining \scshape on input line 3720.
+LaTeX Info: Redefining \upshape on input line 3725.
+LaTeX Info: Redefining \em on input line 3755.
+LaTeX Info: Redefining \emph on input line 3780.
+LaTeX Info: Redefining \- on input line 3831.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 4110.
+. Redefining command \oldstylenums with sig. 'm' on line 3926.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 4114.
+. Defining command \liningnums with sig. 'm' on line 3930.
 .................................................
 ))
 *************************************************
@@ -528,26 +522,26 @@ Space=WordSpace].
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. \tex_hyphenchar:D \font =-1\scan_stop: 
+. \hyphenchar \font =-1\relax 
 . - 'bold' (bx/n) with NFSS spec.: <->"Courier New/B/OT:mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. \tex_hyphenchar:D \font =-1\scan_stop: 
+. \hyphenchar \font =-1\relax 
 . - 'italic' (m/it) with NFSS spec.: <->"Courier New/I/OT:mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. \tex_hyphenchar:D \font =-1\scan_stop: 
+. \hyphenchar \font =-1\relax 
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Courier
 . New/BI/OT:mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
-. \tex_hyphenchar:D \font =-1\scan_stop: 
+. \hyphenchar \font =-1\relax 
 .................................................
 LaTeX Info: Redefining \ttfamily on input line 12.
 (/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -1086,24 +1080,31 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 46.
+
+(/usr/share/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1111,70 +1112,70 @@ LaTeX Font Info:    ... okay on input line 44.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 44.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 44.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 44.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 44.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 44.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 44.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 44.
-LaTeX Font Info:    Redeclaring math accent \check on input line 44.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 44.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 44.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 44.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 44.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 44.
+(Font)              `operators' in the math version `normal' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 4
-4.
+6.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 44.
+(Font)              `operators' in the math version `bold' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-44.
+46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 44.
+input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 44.
+ 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 44.
+ 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 44.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 44.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 46.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 44.
+ input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 44.
+ne 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 44.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/bx/n on input line 44
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/bx/n on input line 46
 .
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 46.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1184,9 +1185,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
  (./paper.out)
 (./paper.out)
 \@outlinefile=\write4
@@ -1212,12 +1213,12 @@ LaTeX Info: Redefining \nameref on input line 44.
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1227,363 +1228,81 @@ LaTeX Info: Redefining \nameref on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 70.
+[1
+
+]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 72.
+ (./paper.bbl
+Underfull \hbox (badness 3657) in paragraph at lines 49--52
+[]\TU/TimesNewRoman(0)/m/n/12 Toshiba HP Intel Microsoft Phoenix.  Advanced Con
+figuration and Power Interface
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+TimesNewRoman(0) on in
-put line 64.
-LaTeX Font Info:    No file OT1TimesNewRoman(0).fd. on input line 64.
-
-
-LaTeX Font Warning: Font shape `OT1/TimesNewRoman(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead
-(Font)              for symbol `flqq' on input line 64.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 76.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 76.
-[1
-
-] (./paper.toc)
-\tf@toc=\write5
-\openout5 = `paper.toc'.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
- [1]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 82.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 97.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 97.
- [2]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 97.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 97.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 111.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 111.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
- [3]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 116.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 121.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 121.
- [4]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 123.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 123.
-File: ../diagrams/hyper_type1.png Graphic file (type bmp)
-<../diagrams/hyper_type1.png>
-File: ../diagrams/hyper_type2.png Graphic file (type bmp)
-<../diagrams/hyper_type2.png>
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 145.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 145.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 147.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 147.
- [5]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 149.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 149.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 155.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 155.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 157.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 157.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 157.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 157.
- [6]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 158.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 158.
-File: ../diagrams/virt-mem.png Graphic file (type bmp)
-<../diagrams/virt-mem.png>
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 174.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 174.
-File: ../diagrams/ioapic.jpg Graphic file (type bmp)
-<../diagrams/ioapic.jpg>
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 183.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 183.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 183.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 183.
- [7]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 187.
-
-Overfull \hbox (13.2423pt too wide) in paragraph at lines 188--188
-[]\TU/TimesNewRoman(0)/m/n/10.95 После включения виртуальной машины логический 
-процессор входит в режим VMX non-root operation.
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-[8]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-
-Underfull \hbox (badness 1910) in paragraph at lines 207--207
-[]|\TU/TimesNewRoman(0)/m/n/10.95 Win8.1; частично
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\TU/TimesNewRoman(0)/m/n/10.95 использование
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\TU/TimesNewRoman(0)/m/n/10.95 Win7; Win8.1;
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 211.
-[9]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 211.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 211.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 215.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 215.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 223.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 223.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 235.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 235.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 235.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 235.
- [10]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 236.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 236.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 240.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 240.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 245.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 245.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 261.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 261.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 261.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 261.
- [11]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 262.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 262.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 282.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 282.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 283.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 283.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 283.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 283.
- [12]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 286.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 286.
-File: ../diagrams/jinet_vesa.png Graphic file (type bmp)
-<../diagrams/jinet_vesa.png>
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 294.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 294.
-
-Overfull \hbox (3.06316pt too wide) in paragraph at lines 295--295
-\TU/TimesNewRoman(0)/m/n/10.95 изучить самые разные аспекты работы современных 
-ПК: от работы в 16-битном режим до опыта неуспеш-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 297.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 297.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 297.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 297.
-[13]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 300.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 300.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 310.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 310.
-
-Overfull \hbox (12.86978pt too wide) in paragraph at lines 311--312
-[]\TU/TimesNewRoman(0)/m/n/10.95 В рамках данного проекта использовался исходны
-й код реализации функции printf из проекта tinyprintf:
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 312.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 312.
-(./paper.bbl
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 16.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-[]\TU/TimesNewRoman(0)/m/n/10.95 М. Чурдакис. The Infamous Trilogy: CPU interna
-ls, Virtualization, Raw multicore
+Underfull \hbox (badness 7888) in paragraph at lines 69--74
+[]\TU/TimesNewRoman(0)/m/n/12 М. Чурдакис. The Infamous Trilogy: CPU internals,
+ Virtualization, Raw multicore
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--74
-\TU/TimesNewRoman(0)/m/n/10.95 programming.  []$[][][][][] [] [] [] [][][] [] [
-][][][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][] []
+\TU/TimesNewRoman(0)/m/n/12 programming.  []$[][][][][] [] [] [] [][][] [] [][]
+[][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][] []
  []
 
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 317.
- [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+(babel)             in language  on input line 77.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 317.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 30950 strings out of 493010
- 613748 string characters out of 6140133
- 711577 words of memory out of 5000000
- 34519 multiletter control sequences out of 15000+600000
- 539231 words of font info for 83 fonts, out of 8000000 for 9000
+ 30715 strings out of 492998
+ 608697 string characters out of 6139961
+ 692246 words of memory out of 5000000
+ 34315 multiletter control sequences out of 15000+600000
+ 535445 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,16n,78p,10440b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,79p,10397b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (16 pages).
+Output written on paper.pdf (2 pages).

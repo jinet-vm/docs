@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{popek}
+\selectlanguageifdefined{russian}
+Popek~G.~J., Goldberg~R.~P. Formal requirements for virtualizable third
+  generation architectures~// Communications of ACM.
+\newblock 1974.
+
+\bibitem{rupopek}
+\selectlanguageifdefined{russian}
+@Atakua. Аппаратная виртуализация. Теория,
+  реальность и поддержка в архитектурах
+  процессоров.
+\newblock \url{https://habrahabr.ru/company/intel/blog/196444/}.
+\newblock 2013.
+
+\bibitem{chourdakis}
+\selectlanguageifdefined{russian}
+М.~Чурдакис. The Infamous Trilogy: CPU internals, Virtualization, Raw
+  multicore programming.
+\newblock
+  \url{https://www.codeproject.com/articles/45788/the-real-protected-long-mode-assembly-tutorial-for}.
+\newblock 2015.
+
+\bibitem{osdev}
+\selectlanguageifdefined{russian}
+OSDev Wiki.
+\newblock \url{http://wiki.osdev.org/Main_Page}.
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Intel.
+\newblock Intel® 64 and IA-32 Architectures Software Developer Manual.
+\newblock 2017.
+
+\bibitem{amd}
+\selectlanguageifdefined{russian}
+AMD.
+\newblock AMD64 Architecture Programmer's Manual, Volume 2: System Programming.
+\newblock 2017.
+
+\bibitem{sadko}
+\selectlanguageifdefined{russian}
+В.~Садовников. Начала программирования в
+  защищённом режиме.
+\newblock \url{http://e-zine.excode.ru/online/1/Introduction.html}.
+\newblock 2006.
+
+\bibitem{make}
+\selectlanguageifdefined{russian}
+GNU Project and Free Software Foundation.
+\newblock GNU Make Manual.
+
+\bibitem{gcc}
+\selectlanguageifdefined{russian}
+GNU Project and Free Software Foundation.
+\newblock GCC Manual.
+
+\bibitem{ld}
+\selectlanguageifdefined{russian}
+GNU Project and Free Software Foundation.
+\newblock GNU Linker Manual.
+
+\bibitem{fasm}
+\selectlanguageifdefined{russian}
+Grysztar~Tomasz.
+\newblock flat assembler 1.71.
+
+\bibitem{acpi}
+\selectlanguageifdefined{russian}
+Toshiba~HP Intel Microsoft~Phoenix.
+\newblock Advanced Configuration and Power Interface Specification, Revision
+  5.0a.
+
+\bibitem{elf}
+\selectlanguageifdefined{russian}
+Portable Formats~Specification~Version~1.1.
+\newblock Executable and Linkable Format (ELF).
+
+\end{thebibliography}
